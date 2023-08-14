@@ -1,0 +1,12 @@
+<div class="container ms-4 mt-4">
+  <h1>Stupid Coaching</h1>
+  <div class="border-start border-5 mt-4 ps-4">
+    <h4><%= @asks %></h4>
+    <h4 class="text-muted">-You</h4>
+  </div>
+  <div class="border-start border-5 mt-4 ps-4 bg-red">
+    <h4><%= @answer %></h4>
+    <h4 class="text-muted">-Your coach</h4>
+  </div>
+<p class="mt-4"><%= link_to "Ask a new question", ask_path %></p>
+</div>
